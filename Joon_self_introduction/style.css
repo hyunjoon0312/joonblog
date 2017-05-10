@@ -1,6 +1,15 @@
 @import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
-@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
 @import url(http://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+@font-face {
+  font-family: 'Nanum Pen Script';
+  font-style: normal;
+  font-weight: 400;
+  src:  url(NanumPenScript-Regular.ttf) format('truetype');
+}
+
+
+
 
 
 h1{
@@ -23,6 +32,10 @@ font-family: 'Jeju Hallasan';
 
 width : 500px;
 margin: 0 auto;
+
+
+  
+
 
 }
 
