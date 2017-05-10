@@ -3,14 +3,13 @@
   font-style: normal;
   font-weight: 400;
   src:  url(NanumPenScript-Regular.ttf) format('truetype');
-}
-
-@font-face {
+  
   font-family: 'Jeju Hallasan';
   font-style: normal;
   font-weight: 400;
   src:  url(JejuHallasan-Regular.ttf) format('truetype');
 }
+
 
 
 
