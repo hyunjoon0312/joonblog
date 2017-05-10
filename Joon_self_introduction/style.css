@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+
+
+@font-face {
+
+    font-family:'NanumGothic';
+
+    src: url('images/NanumGothic.eot');
+
+    src: url('images/NanumGothic.eot?#iefix') format('embedded-opentype'),
+
+         url('images/NanumGothic.woff') format('woff'),
+
+         url('images/NanumGothic.ttf') format('truetype');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+
+}
+
+
+
+
+
+h1{
+
+
+  text-align:center;
+  font-family:'Nanum Pen Script';
+  font-size:80px;
+
+}
+
+
+
+#main
+{
+
+margin-top: 70px;
+font-size: 30px;
+font-family: 'Jeju Hallasan';
+
+width : 500px;
+margin: 0 auto;
+
+
+  
+
+
+}
+
+#sns{
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+img{
+  border-radius: 20px;
+}
+
+#introduce{
+  font-size: 22px;
+}
