@@ -45,40 +45,45 @@ export class MyApp{
  Decorator
 ---------------------
 
-# @Component
+@Component
 *컴포넌트 : 버튼, 아이콘, 메뉴, 툴바 등과 같이 앱을 구성요소나 전반적인 로직을 말한다.
          컴포넌트는 하나의 페이지에 한개 또는 여러개가 있을 수 있다. 
 
-            장식
-Decorator  =====> 클래스 앞에 @Component를 해주면 그 클래스는 컴포넌트가 된다.
-		   ex) @Component() class ABC{.....} 와 같이 하면 클래스 ABC는 컴포넌트가 된다.
+Decorator(꾸며줌)  =====> 클래스 앞에 @Component를 해주면 그 클래스는 컴포넌트가 된다.
+		   
+ex) 
+<pre><code>
 
-		  유사하게 @Pipe() class EFG{.....}이 되면 EFG는 파이프가 된다.
+    @Component() class ABC{.....} 와 같이 하면 클래스 ABC는 컴포넌트가 된다.
+    유사하게 @Pipe() class EFG{.....}이 되면 EFG는 파이프가 된다.
+</code></pre>
 
-
-#클래스 멤버 변수에도 Decoration을 사용할 수 있다.
+클래스 멤버 변수에도 Decoration을 사용할 수 있다.
 ex)
+
    @Input variable1   ---> 값을 외부로부터 받는 변수
    @Output variable2  ---> 값을 외부로 내보내는 변수
-
+</code></pre>
 
 컴포넌트에는 하나의 객체 파라미터를 전달할 수 있는데 이를 메타데이터라고 한다.
-ex)  @Component({...........})
+ex)  
+<pre><code>
+    @Component({...........})
                  메타데이터(객체)
 
-     @Component({
+    @Component({
 	selector:...  컴포넌트를 어디에 표시할지 결정
 	template:...  컴포넌트 내용을 담는 곳
      })
      		  
-
+</code></pre>
 
 src/app/app.component.ts (App Component)
 -----------------------------------------
 
 App Component는 root 컴포넌트라고도 하는데 이는 가장 처음 실행되고 다른 모든 컴포넌트를 포함하기 떄문이다.
 
-
+<pre><code>
 import { Component } from '@angular/core';
 import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -101,3 +106,5 @@ export class MyApp {
     });
   }
 }
+
+</code></pre>
